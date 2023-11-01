@@ -1,0 +1,110 @@
+.hamburger {
+
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column nowrap;
+    z-index: 10;
+    display: none;
+
+}
+
+.burger {
+
+    width: 2rem;
+    height: 0.25rem;
+    border-radius: 10px;
+    background-color: #144272;
+    transform-origin: 1px ;
+    transition: all .3s linear;
+    margin-bottom: 4px;
+
+}
+
+.hamburger .bar {
+
+    border-bottom: 0.33rem solid #144272;
+    position: absolute;
+    display: block;
+    width: 100%;
+    transition: all 350ms;
+    transition-timing-function: cubic-bezier(1, 0.05, 0.62, 1.78);
+  
+  }
+
+  .hamburger .bar:first-of-type {
+    
+    top: 1rem;
+    background-color: #144272;
+
+  }
+
+  .hamburger .bar:nth-of-type(2) {
+
+    top: 1rem;
+    background-color: #144272;
+
+  }
+
+  .hamburger .bar:nth-of-type(3) {
+
+    top: 1rem;
+    background-color: #144272;
+
+  }
+  
+  .bar:first-of-type {
+
+    transform: rotate(45deg);
+    width: 2rem;
+    height: 0.25rem;
+    border-radius: 10px;
+    background-color: #144272;
+
+  }
+
+  .bar:nth-of-type(2) {
+
+    opacity: 0;
+    width: 2rem;
+    height: 0.25rem;
+    border-radius: 10px;
+    background-color: #144272;
+
+  }
+  
+   .bar:nth-of-type(3) {
+
+    transform: rotate(-45deg);
+    width: 2rem;
+    height: 0.25rem;
+    border-radius: 10px;
+    background-color: #144272;
+  
+  }
+
+@media (max-width: 767px) {
+
+    .hamburger {
+        display: block;
+        padding-top: 10px;
+        margin-left:10px;
+        z-index: 10;
+    }
+
+    .burger1 {
+        transform: rotateX('45deg');
+    
+    }
+
+    .burger2 {
+        transform: rotateX('45deg');
+    }
+
+    .burger3 {
+        transform: rotateX('-45deg');
+    
+    }
+    
+}

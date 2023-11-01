@@ -1,0 +1,48 @@
+#newsletter {
+
+    background-color: #fff;
+    color: #144272;
+    margin: 30px ;
+
+}
+
+#newsletter-container {
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+#newsletter-content h1 {
+
+    font-size: 2rem !important;
+
+}
+
+#newsletter-content p {
+
+    font-size: 1.4rem !important;
+    margin: 10px 0px;
+
+}
+
+
+
+.newsletter-content-join-btn {
+
+    padding: 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    background-color: #144272;
+    color: #fff;
+
+}
+
+.newsletter-content-join-btn:hover {
+
+    background-color: #275a8f;
+    
+}

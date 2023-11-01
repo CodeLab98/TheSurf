@@ -1,0 +1,181 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 140px;
+    height: 110px;
+}
+
+.navigation {
+    height: 95px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    padding: 0px 100px;
+    background-color: #fff;
+    z-index: 100000005;
+    border-bottom: 2px solid #144272;
+}
+
+/* Sidebar Nav Styling */
+
+.navigation-menu {
+  margin-left: auto;
+}
+
+.navigation-menu ul {
+  display: flex;
+  padding: 0;
+}
+
+.navigation-menu li { 
+  list-style-type: none;
+  margin: 0 1rem;
+  transition: all 1s;
+}
+
+.navigation-menu li a {
+  text-decoration: none;
+  font-size: 1.7rem;
+  display: block;
+  width: 100%;
+  color: #144272;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #144272;
+  font-weight: bold;
+  padding: 20px 0px;
+  margin: 0px 10px;
+  display: inline-block;
+  position: relative;
+  opacity: 0.75;
+}
+
+.nav-link:hover {
+  opacity: 1;
+}
+
+.nav-link::before {
+  transition: 300ms;
+  height: 5px;
+  content: "";
+  position: absolute;
+  background-color: #144272;
+}
+
+.nav-link-line::before {
+  width: 0%;
+  bottom: 10px;
+}
+
+.nav-link-line:hover::before {
+  width: 100%;
+}
+
+/* Hamburger styling */
+
+.hamburger {
+  border: 0;
+  height: 40px;
+  width: 40px;
+  padding: 0.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  transform: translateY(-50%);
+  display: none;
+}
+
+/* Media Quiery for Mobile */
+
+@media screen and (max-width: 768px) {
+
+  .logo img {
+    width: 100px;
+    height: 80px;
+    margin-left: -60px;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .navigation-menu ul {
+      display: none;
+  }
+
+  .navigation-menu ul {
+    position: fixed;
+    z-index: 100005;
+    top: -10px;
+    left: 0;
+    flex-direction: column;
+    width: 45%;
+    height: calc(100vh);
+    background-color: #fff;
+    border: 1px solid #144272;
+    transition: left 3s ease-in-out;
+  }
+
+  .navigation-menu li {
+    text-align: center;
+    margin: 0;
+    transition: all .1s;
+  }
+
+  .navigation-menu li a {
+    color: #144272;
+    width: 100%;
+    padding: 1.5rem 0;
+    font-size: 1.6rem;
+    transition: all .1s;
+    margin-top: 120px;
+  }
+
+  .navigation-menu li:hover {
+    background-color: #144272;
+    color: #fff;
+    transition: all .1s;
+  }
+
+  .navigation-menu a:hover {
+    color: #fff;
+  }
+
+  .navigation-menu.expanded ul {
+    display: block;
+
+  }
+  
+  .nav-link:hover {
+    opacity: 1;
+  }
+  
+  .nav-link::before {
+
+    height: 0px;
+  }
+  
+  .nav-link-line::before {
+    width: 0%;
+    bottom: 0px;
+  }
+  
+  .nav-link-line:hover::before {
+    width: 0%;
+  }
+  
+}
