@@ -92,19 +92,4 @@
         margin-left:10px;
         z-index: 10;
     }
-
-    .burger1 {
-        transform: rotateX('45deg');
-    
-    }
-
-    .burger2 {
-        transform: rotateX('45deg');
-    }
-
-    .burger3 {
-        transform: rotateX('-45deg');
-    
-    }
-    
 }
