@@ -6,7 +6,7 @@
     justify-content: space-around;
     flex-flow: column nowrap;
     z-index: 10;
-    display: none;
+    /* display: none; */
 
 }
 
@@ -58,7 +58,7 @@
 
     transform: rotate(45deg);
     width: 2rem;
-    height: 0.25rem;
+    height: 0.10rem;
     border-radius: 10px;
     background-color: #144272;
 
@@ -68,7 +68,7 @@
 
     opacity: 0;
     width: 2rem;
-    height: 0.25rem;
+    height: 0.10rem;
     border-radius: 10px;
     background-color: #144272;
 
@@ -78,7 +78,7 @@
 
     transform: rotate(-45deg);
     width: 2rem;
-    height: 0.25rem;
+    height: 0.10em;
     border-radius: 10px;
     background-color: #144272;
   
@@ -91,5 +91,5 @@
         padding-top: 10px;
         margin-left:10px;
         z-index: 10;
-    }
+    }    
 }
