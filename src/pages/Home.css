@@ -1,4 +1,4 @@
-.hero-container {
+.landingpage-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,20 +8,20 @@
     z-index: -1;
 }
 
-#hero-content  {
+.landingpage-content  {
     color: #fff;
     z-index: 1001;
     text-align: center;
     margin-top: -50px;
 }
 
-#hero-content h1 {
+.landingpage-content h1 {
     font-family: 'Dancing Script', cursive;
     font-size: 14rem;
     margin: 40px;
 }
 
-#hero-content h3 {
+.landingpage-content h3 {
     font-size: 2rem;
 }
   
@@ -62,17 +62,17 @@
 
 @media only screen and (max-width: 700px) {
   
-    #hero-content h1 {
+    .landingpage-content h1 {
         font-family: 'Dancing Script', cursive;
         font-size: 8rem;
         margin: 40px;
     }
     
-    #hero-content h3 {
+    .landingpage-content h3 {
         font-size: 1.6rem;
     }
 
-    .hero-container {
+    .landingpage-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
