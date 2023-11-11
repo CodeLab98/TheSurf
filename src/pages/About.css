@@ -10,13 +10,13 @@
     margin: auto;
 }
 
-#about-container {
+.about-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#about-content-left {
+.about-content-left {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -26,22 +26,22 @@
     margin-right: 100px;
 }
 
-#about-content-left h5 {
+.about-content-left h5 {
     font-size: 1.2rem;
     margin-bottom: 5px;
 }
 
-#about-content-left h1 {
+.about-content-left h1 {
     font-size: 2.5rem;
 }
 
-#about-content-left p  {
+.about-content-left p  {
     line-height: 1.6;
     font-size: 1.2rem;
     margin: 15px 0px;
 }
 
-#about-content-right {
+.about-content-right {
     flex: 1;
     border: solid 5px;
     border-radius: 10px;
@@ -58,7 +58,7 @@
     font-size: 1.4rem;
 }
 
-#about-content-right img {
+.about-content-right img {
     width: 100%;
     display: block;
     position: absolute;
@@ -70,7 +70,7 @@
     object-fit: cover;
 }
 
-#about-content-right img:hover {
+.about-content-right img:hover {
     top: 0px;
     right: 0px;
     border-radius: 3px;
@@ -90,13 +90,13 @@
 
 @media only screen and (max-width: 700px) {
 
-    #about-container {
+    .about-container {
       flex-direction: column;
       height: 800px;
       margin-bottom: 100px;
     }
 
-    #about-content-right {
+    .about-content-right {
         width: 100%;
         border: solid 10px;
         border-radius: 20px;
@@ -105,7 +105,7 @@
         position: relative;
     }
     
-    #about-content-right .images {
+    .about-content-right .images {
         width: 100%;
         height: 350px;
         display: block;
@@ -129,7 +129,7 @@
 
 @media only screen and (max-width: 650px) {
 
-    #about-content-left {
+    .about-content-left {
       
         align-items: center;
         justify-content: center;
@@ -138,16 +138,16 @@
         margin-right: 0px;
     }
 
-    #about-content-left h5 {
+    .about-content-left h5 {
         font-size: 1rem;
         margin-bottom: 5px;
     }
     
-    #about-content-left h1 {
+    .about-content-left h1 {
         font-size: 2rem;
     }
     
-    #about-content-left p  {
+    .about-content-left p  {
         line-height: 1.4;
         font-size: 1rem;
         margin: 15px 0px;
@@ -172,7 +172,7 @@
         transform: scale(1, 6);
     }
 
-    #about-content-right img:hover {
+    .about-content-right img:hover {
         top: 0px;
         right: 0px;
         border-radius: 10px;
