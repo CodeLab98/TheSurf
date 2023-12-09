@@ -112,6 +112,7 @@
     left: 0;
     right: 0;
     background-color: rgba(0,0,0,0.4);
+    text-align: center;
 
 }
 
@@ -137,7 +138,7 @@
 
 }
 
-.modal-title button {
+.modal-title-btn button {
 
     font-size: 2.2rem;
     border: none;
