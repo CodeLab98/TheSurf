@@ -61,7 +61,7 @@
    
 /*  Field */
 
-.signup__field {
+.signup-field {
 
     display: flex;
     flex-direction: column;
@@ -71,7 +71,7 @@
 
 }
   
-.signup__field:before {
+.signup-field:before {
 
   content: "";
   display: inline-block;
@@ -86,14 +86,14 @@
 
 }
 
-.signup__field:hover:before {
+.signup-field:hover:before {
 
   width: 100%;
 
 }
 
 /*  Input */
-.signup__input {
+.signup-input {
 
   width: 100%;
   height: 100%;
@@ -107,7 +107,7 @@
 }
 
 /*  Label */
-.signup__label {
+.signup-label {
 
   color: #bdbdbd;
   position: absolute;
@@ -119,8 +119,8 @@
 
 }
 
-.signup__input:focus + .signup__label,
-.signup__input:valid + .signup__label {
+.signup-input:focus + .signup-label,
+.signup-input:valid + .signup-label {
 
   top: 0;
   font-size: 1rem;
