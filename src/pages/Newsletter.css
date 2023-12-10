@@ -6,7 +6,7 @@
 
 }
 
-#newsletter-container {
+.newsletter-container {
 
     display: flex;
     justify-content: center;
@@ -14,13 +14,13 @@
 
 }
 
-#newsletter-content h1 {
+.newsletter-content h1 {
 
     font-size: 2rem !important;
 
 }
 
-#newsletter-content p {
+.newsletter-content p {
 
     font-size: 1.4rem !important;
     margin: 10px 0px;
