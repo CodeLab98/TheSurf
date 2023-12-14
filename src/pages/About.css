@@ -93,7 +93,7 @@
     clip-path: ellipse(50% 30% at 50% 43%);
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 750px) {
 
     .about-container {
       flex-direction: column;
@@ -132,7 +132,7 @@
     }
   }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 750px) {
 
     .about-content-left {
       
