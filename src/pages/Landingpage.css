@@ -6,6 +6,7 @@
     height: 100vh;
     background-color: rgba(0, 0, 0, .5);
     z-index: -1;
+    overflow: hidden;
 }
 
 .landingpage-content  {
@@ -60,7 +61,7 @@
 }
 
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 750px) {
   
     .landingpage-content h1 {
         font-family: 'Dancing Script', cursive;
@@ -77,14 +78,9 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 97.8vh;
+        height: 98vh;
         background-color: rgba(0, 0, 0, .5);
         z-index: -1; 
     }
   
 }
-
-
-  
-
-  
